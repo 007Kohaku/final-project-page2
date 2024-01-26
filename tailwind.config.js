@@ -9,6 +9,7 @@ module.exports = {
         screen: "#F9F5FF",
         write: "#646E83",
         darkpurple: "#42307D",
+        bground: "#F9FAFB",
       },
     },
   },
