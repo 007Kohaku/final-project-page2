@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,7 @@
   </head>
   <body class="bg-screen">
     <!-- Header section start-->
-    <nav class="bg-white w-full top-0 start-0 shadow-sm">
+    <nav class="bg-white w-full top-0 start-0 shadow-sm" id="home">
       <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <div class="inline-flex">
           <a href="https://www.edspert.id/" class="flex items-center space-x-3 rtl:space-x-reverse pr-4">
@@ -638,5 +638,15 @@
       </div>
     </footer>
     <!-- Footer section end -->
+
+    <!-- Back to Top start -->
+    <section>
+      <a href="#home" class="hidden justify-center items-center p-4 fixed bottom-4 right-4 z-[9999] h-14 w-14 bg-primary rounded-full hover:animate-pulse" id="to-top">
+        <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+      </a>
+    </section>
+    <!-- Back to Top end -->
+
+    <script src="js/script.js"></script>
   </body>
 </html>
